@@ -1,6 +1,6 @@
 
 # OBJS specifies the files to compile as part of the project
-OBJS = 4-optimized-surfaces-and-stretching.cpp
+OBJS = 6-geometry-rendering.cpp
 
 # CC specifies which compiler we're using
 CC = g++
@@ -13,7 +13,7 @@ COMPILER_FLAGS = -w -Wall -Wextra -Werror -pedantic
 LINKER_FLAGS = -lSDL2 -lSDL2_image
 
 # OBJ_NAME specifies the name of our exectuable
-OBJ_NAME = 4-optimized-surfaces-and-stretching
+OBJ_NAME = 6-geometry-rendering
 
 # This is the target that compiles our executable
 all: $(OBJS)
